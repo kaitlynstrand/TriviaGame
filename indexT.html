@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Trivia Time </title>
+  
+    <link href="assets/css/resetT.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="assets/css/styleT.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="jumbotron" id="title"> 
+			<h1> Trivia Time </h1>
+		</div>
+	</header>
+
+	<div id="container">
+
+		<div id="time-remaining">
+			<h3> Time Remaining:  <span class="countdown"></span></h3>
+		</div>
+
+		<div id="question-publish">
+			<h3> Question: <span class="question-current"></span></h3>
+		</div>
+			
+		<div id="answer-publish">
+		<div class="radio">
+
+				<!-- <label><input type="radio" name"answer1"> "" </label>
+					<br>			
+				<label><input type="radio" name"answer2"> "" </label>
+					<br>
+				<label><input type="radio" name"answer3"> "" </label>		
+					<br>
+				<label><input type="radio" name"answer4"> "" </label>
+			 -->
+		</div>
+		</div>
+
+	</div>
+	
+	<div class="container">
+			<button type="button" class="btn btn-info" id="start-button"> Start! </button>
+	</div>
+	
+	<br>
+
+		<!-- <div id="answerText">
+			<div class="correctText">
+			<div class="incorrectText">
+		</div>
+  -->
+
+	<div id="container">
+		<div id="wins-counter">
+			<h3> Wins:  <span class="wins-num"> 0 </span></h3>
+		</div>
+
+		<div id="losses-counter">
+			<h3> Losses: <span class="losses-num"> 0 </span></h3>
+		</div>
+	</div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/appT.js"></script>
+
+</body>
+
+</html>	

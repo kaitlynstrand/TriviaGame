@@ -1,0 +1,57 @@
+/* ELEMENTS* (BODY, DIVS, H1, H3, SPANS)*/
+
+
+
+/* BODY*/
+
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+}
+
+.jumbotron {
+	text-align: center;
+	font-size: 42px;
+	background-color: #59BDE8;
+}
+
+
+/* CLASSES*/
+.countdown {
+
+}
+
+.winsNum {
+
+}
+
+.lossesNum {
+
+}
+/* IDs*/
+
+#header {
+
+}
+
+#timer {
+
+}
+
+#questionOne {
+
+}
+
+#answerOne {
+
+
+}
+
+#winsCounter {
+
+}
+
+#lossesCounter {
+
+}
